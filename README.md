@@ -13,3 +13,8 @@
     - yamlファイルの作成
 - 自動テスト実行
     - ローカルでの変更内容をPush
+
+# 躓きポイント
+- Actionsに書き込みの権限を与えないとエラーが出る
+    - https://zenn.dev/tatsugon/articles/github-actions-permission-error
+- pytest-covのインストールが必要
