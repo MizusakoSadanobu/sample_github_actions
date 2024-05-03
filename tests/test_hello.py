@@ -1,7 +1,4 @@
-import sys
-print(sys.path)
-
-from hello import hello
+from src.hello import hello
 
 def test_hello_default(capsys):
     hello()
